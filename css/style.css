@@ -1,0 +1,313 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  overflow-x: hidden;
+}
+
+.banner-bg {
+  background: url(../img/banner.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Header Section */
+.cstm-logo {
+  height: 55px;
+}
+.cstm-link {
+  color: white !important;
+  font-weight: 600 !important;
+  padding: 0px 20px !important;
+  transition: 0.4s ease-in-out;
+}
+.menu-line {
+  cursor: default;
+}
+.cstm-link:hover {
+  opacity: 0.6;
+}
+.menu-line:hover {
+  opacity: 1;
+}
+
+/* Banner Section */
+.banner {
+  overflow: hidden;
+  padding-top: 130px;
+  padding-bottom: 170px;
+}
+.banner-text {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.banner-text h1 {
+  display: inline-block;
+  padding: 5px 30px;
+  background-color: #32343286;
+}
+.banner-text p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.banner-text a {
+  text-decoration: none;
+}
+.banner-text button {
+  background-color: transparent;
+  color: #f6f6f6;
+  padding: 10px 70px;
+  border: 2px solid #f6f6f6;
+  display: block;
+  transition: 0.5s ease-in-out;
+  margin-top: 35px;
+}
+.banner-text button:hover {
+  background-color: #f6f6f6;
+  color: #323432;
+}
+.two {
+  margin-left: 15px;
+}
+
+/* Welcome Section */
+
+.welcome {
+  background-color: #f6f6f6;
+  padding-top: 150px;
+  padding-bottom: 70px;
+}
+.welcome-text h1 {
+  color: #333333;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.welcome-text p {
+  color: #a9a9a9;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin-top: 20px;
+  padding-right: 40px;
+}
+.welcome-span {
+  color: #333333;
+}
+.car-container {
+  position: relative;
+}
+.car1 {
+  position: absolute;
+  top: 18px;
+  left: -25px;
+  width: 730px;
+}
+/* Another Section */
+.another {
+  background-color: #28282e;
+  color: #f6f6f6;
+  padding: 110px 0px;
+}
+.another h1 {
+  color: #f6f6f6;
+}
+.another img {
+  width: 100%;
+}
+.read-btn {
+  color: #f6f6f6;
+  background-color: transparent;
+  padding: 10px 30px;
+  border: 2px solid #f6f6f6;
+  display: block;
+  transition: 0.5s ease-in-out;
+  margin-top: 35px;
+}
+.read-btn:hover {
+  background-color: #f6f6f6;
+  color: #323432;
+}
+
+/* Footer Section */
+footer {
+  background-color: #ef4035;
+  color: #f6f6f6;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+/* Media Queries */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .menu-line {
+    display: none;
+  }
+  .banner h1 {
+    font-size: 24px;
+    padding: 5px 10px;
+  }
+  .banner p {
+    font-size: 12px;
+  }
+  .banner-text button {
+    padding: 8px 40px;
+  }
+  /* Welcome Section */
+  .welcome {
+    background-color: #f6f6f6;
+    padding-top: 80px;
+    padding-bottom: 200px;
+  }
+  .welcome h1 {
+    font-size: 30px;
+  }
+  .car1 {
+    width: 500px;
+    top: 15px;
+    left: 0px;
+  }
+  /* Another Section */
+  .another {
+    padding: 90px 0px;
+  }
+  .another h1 {
+    font-size: 32px;
+  }
+  .another img {
+    margin-top: 40px;
+  }
+  .another p {
+    font-size: 14px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .menu-line {
+    display: none;
+  }
+  .banner {
+    padding-top: 115px;
+    padding-bottom: 155px;
+  }
+  .banner h1 {
+    font-size: 28px;
+    padding: 5px 15px;
+  }
+  /* Welcome Section */
+  .welcome {
+    background-color: #f6f6f6;
+    padding-top: 100px;
+    padding-bottom: 260px;
+  }
+  .welcome h1 {
+    font-size: 30px;
+  }
+  .car1 {
+    width: 500px;
+    top: 70px;
+    left: 0px;
+  }
+  /* Another Section */
+  .another {
+    padding: 90px 0px;
+  }
+  .another h1 {
+    font-size: 32px;
+  }
+  .another img {
+    margin-top: 40px;
+  }
+  .another p {
+    font-size: 14px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Header Section */
+  .menu-line {
+    display: none;
+  }
+
+  /* Banner Section */
+  .banner {
+    padding-top: 115px;
+    padding-bottom: 155px;
+  }
+  .banner h1 {
+    font-size: 38px;
+    padding: 5px 24px;
+  }
+
+  .car1 {
+    width: 500px;
+    top: 15px;
+    left: 0px;
+  }
+
+  /* Welcome Section */
+  .welcome {
+    background-color: #f6f6f6;
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+  .welcome h1 {
+    font-size: 34px;
+  }
+  .welcope p {
+    font-size: 13px;
+    padding-right: 100px;
+  }
+  .car-container {
+    height: 260px;
+  }
+  .car1 {
+    width: 600px !important;
+    top: 70px;
+    left: 0px;
+  }
+  /* Another Section */
+  .another {
+    padding: 90px 0px;
+  }
+  .another h1 {
+    font-size: 34px;
+  }
+  .another img {
+    margin-top: 40px;
+  }
+  .another p {
+    font-size: 14px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .welcome {
+    background-color: #f6f6f6;
+    padding-top: 120px;
+    padding-bottom: 70px;
+  }
+  .welcome h1 {
+    font-size: 34px;
+  }
+  .car1 {
+    width: 700px;
+    top: 115px;
+    left: -70px;
+  }
+  /* Another Section */
+  .another h1 {
+    font-size: 38px;
+  }
+  .another img {
+    margin-top: 40px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
